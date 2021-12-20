@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 32.5rem;
+  background-color: #4499FF;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+label {
+  color: white;
+  font-style: italic;
+  font-size: large;
+  line-height: 2.2rem;
+}
+
+input, textarea {
+  background-color: #4499FF;
+  border: 0.1rem solid white;
+  color: white;
+  font-size: large;
+  line-height: 2.3rem;
+  width: 32rem;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+::placeholder { 
+  color: #AADDFF;
+  font-style: italic;
+  font-size: large;
+  line-height: 2.2rem;
+}
+
+#horizontal {
+  display: flex;
+}
+
+#date {
+  width: 10rem;
+  margin-right: 1rem;
+}
+
+#country {
+  width: 20.8rem;
+}
+
+#area {
+  height: 10rem;
+  text-align: start;
+}
